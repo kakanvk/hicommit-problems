@@ -11,7 +11,7 @@ int main() {
 
     while(n--){
       cin >> a >> b;
-      cout << a * b + 1 << endl;
+      cout << a * b << endl;
     }
     
     return 0;
