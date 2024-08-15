@@ -10,7 +10,7 @@ int main() {
     cin >> n;
 
     while(n--){
-      cout << a * b << endl
+      cout << a * b << endl;
     }
     
     return 0;
