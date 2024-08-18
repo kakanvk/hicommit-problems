@@ -12,7 +12,7 @@ int main() {
 
     while(n--){
       cin >> a >> b;
-      cout << a * b << endl;
+      cout << a * b + 1 << endl;
     }
     
     return 0;
