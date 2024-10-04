@@ -4,14 +4,12 @@ int main() {
 
   int temp, n, max;
 
-  scanf("%d", &n);
-  scanf("%d", &temp);
+  scanf("%d%d", &n, &max);
 
-  max = temp;
   n--;
   
   while(n--){
-    scanf("%d", temp);
+    scanf("%d", &temp);
     if(temp > max) max = temp;
   }
 
