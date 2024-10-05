@@ -6,8 +6,8 @@ int main() {
 
   scanf("%d", &n);
 
-  for(i=1; i<=n; i++){
-    sumOfEven += i%2==0 ? i : 0;
+  for(int i=1; i<=n; i++){
+    sumOfEven += (i%2==0) ? i : 0;
   }
   
   printf("%d", sumOfEven);
