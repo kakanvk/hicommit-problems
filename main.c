@@ -2,15 +2,17 @@
 
 int main() {
 
-  int n, sumOfEven = 0;
+  long long n, sumOfEven = 0;
 
-  scanf("%d", &n);
+  scanf("%lld", &n);
 
-  for(int i=1; i<=n; i++){
-    sumOfEven += (i%2==0) ? i : 0;
+  if (n%2==0) {
+    n--;
   }
+
+  sumOfEven = ((n+1)/2)*((n+1)/2);
   
-  printf("%d", sumOfEven);
+  printf("%lld", sumOfEven);
   
   return 0;
 }
