@@ -18,6 +18,6 @@ long long fibonacci(int n) {
 int main() {
     int n;
     cin >> n;
-    cout << fibonacci(n) << endl;
+    cout << fibonacci(n+1) << endl;
     return 0;
 }
