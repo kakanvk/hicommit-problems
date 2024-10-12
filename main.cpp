@@ -24,7 +24,7 @@ long long sumOfPrimeDivisors(int N) {
 
 int main() {
     int N;
-    cin >> N;
+    cin >> N
     cout << sumOfPrimeDivisors(N) << endl; 
     return 0;
 }
