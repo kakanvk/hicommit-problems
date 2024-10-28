@@ -9,7 +9,7 @@ int main() {
   int a, b;
 
   cin >> a >> b;
-  cout << A + b;
+  cout << a + b;
   
     
   return 0;
